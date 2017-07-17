@@ -22,4 +22,5 @@ Lin, Xunyu, Victor Campos, Xavier Giro-i-Nieto, Jordi Torres, and Cristian Canto
   booktitle = {CVPR 2017 Workshop: Brave new ideas for motion representations in videos II},
   month = {July},
   year={2017}
+  }
 </pre>
