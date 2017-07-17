@@ -12,8 +12,8 @@ Find our paper on [arXiv](https://arxiv.org/abs/1707.04092)  or download the [PD
 If you find this work useful, please consider citing:
 
 ```
-Lin, Xunyu, Victor Campos, Xavier Giro-i-Nieto, Jordi Torres, and Cristian Canton Ferrer. "Disentangling Motion, Foreground and Background Features in Videos." CVPR 2017 Workshop: Brave new ideas for motion representations in videos II (2017).
-}```
+Lin, Xunyu, Victor Campos, Xavier Giro-i-Nieto, Jordi Torres, and Cristian Canton Ferrer. "Disentangling Motion, Foreground and Background Features in Videos." CVPR Workshop: Brave new ideas for motion representations in videos II (2017).
+```
 
 <pre>
 @InProceedings{lin2017disentangling,
