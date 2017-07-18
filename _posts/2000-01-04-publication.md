@@ -9,7 +9,7 @@ Find our paper on [arXiv](https://arxiv.org/abs/1707.04092)  or download the [PD
 
 <center>
 <a href="https://github.com/imatge-upc/unsupervised-2017-cvprw/raw/gh-pages/assets/poster.png">
-<img src="https://github.com/imatge-upc/unsupervised-2017-cvprw/raw/gh-pages/assets/poster-300pix.png">
+<img src="https://github.com/imatge-upc/unsupervised-2017-cvprw/raw/gh-pages/assets/poster.png">
 </a>
 </center>
 
