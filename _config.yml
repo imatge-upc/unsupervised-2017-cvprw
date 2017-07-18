@@ -14,7 +14,7 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "Disentangling Motion, Foreground and Bacground Features in Videos"
+title:       "Disentangling Motion, Foreground and Background Features in Videos"
 keywords:    "computer vision, deep learning, unsupervised, feature, learning, video, cvpr, 2017"
 description: "This paper introduces an unsupervised framework to extract semantically rich features for video representation. Inspired by how the human visual system groups objects based on motion cues, we propose a deep convolutional neural network that disentangles motion, foreground and background information. The proposed architecture consists of a 3D convolutional feature encoder for blocks of 16 frames, which is trained for reconstruction tasks over the first and last frames of the sequence. The model is trained with a fraction of videos from the UCF-101 dataset taking as ground truth the bounding boxes around the activity regions. Qualitative results indicate that the network can successfully update the foreground appearance based on pure-motion features. The benefits of these learned features are shown in a discriminative classification task when compared with a random initialization of the network weights, providing a gain of accuracy above the 10%."
 source_link: "https://imatge-upc.github.io/unsupervised-2017-cvprw/"
