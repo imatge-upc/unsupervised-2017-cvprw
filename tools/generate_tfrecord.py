@@ -94,7 +94,6 @@ def _convert_to_sequential_example(filename, video_buffer, mask_buffer, label, t
         example.context.feature['filename'].bytes_list.value.append(str.encode(filename))
         example.context.feature['text'].bytes_list.value.append(str.encode(text))
         example.context.feature['label'].int64_list.value.append(label)
-        example.context.feature['fps'].float_list.value.append(FLAGS.fps)
 
         # Sequential features
         frames = example.feature_lists.feature_list["frames"]
