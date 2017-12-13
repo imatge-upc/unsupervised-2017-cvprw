@@ -29,7 +29,7 @@ In order to generate TF-records used by this project, you need to modify certain
 conda install ffmpeg
 ```
 
-After installation of FFMPEG, you need to specify the path to executable FFMPEG binary file in **`tools/ffmpeg_reader.py`**. (Usually it's just **`~/anaconda/bin`** if you are using Anaconda). After specifying path to FFMPEG, you are good to go! Run the script as below to generate those TF-records:
+After installation of FFMPEG, you need to specify the path to executable FFMPEG binary file in **`tools/ffmpeg_reader.py`**. (Usually it's just **`~/anaconda/bin/ffmpeg`** if you are using Anaconda). After specifying path to FFMPEG, you are good to go! Run the script as below to generate those TF-records:
 
 ```
 python tools/generate_tfrecords.py
