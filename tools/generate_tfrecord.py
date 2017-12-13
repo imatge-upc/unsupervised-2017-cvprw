@@ -27,8 +27,8 @@ import xml.etree.ElementTree as et
 from ffmpeg_reader import decode_video
 
 
-tf.app.flags.DEFINE_string('videos_directory', '', 'Video data directory')
-tf.app.flags.DEFINE_string('annotation_directory', '', 'Video annotation directory')
+tf.app.flags.DEFINE_string('videos_directory', '../../dataset/UCF-101/', 'Video data directory')
+tf.app.flags.DEFINE_string('annotation_directory', '../../dataset/UCF101_24Action_Detection_Annotations/', 'Video annotation directory')
 tf.app.flags.DEFINE_string('input_file', '../dataset/testlist.txt', 'Text file with (filename, label) pairs')
 tf.app.flags.DEFINE_string('output_directory', '../dataset/UCF-101-tf-records', 'Output data directory')
 tf.app.flags.DEFINE_string('class_list', '../dataset/class_list.txt', 'File with the class names')
@@ -257,6 +257,7 @@ def _process_video(filename, coder):
         frame_w: integer, width width in pixels.
         seq_length: sequence length (non-zero frames)
     """
+
     video, raw_h, raw_w, seq_length = coder.decode_video(filename)
     video = video.astype(np.uint8)
     assert len(video.shape) == 4

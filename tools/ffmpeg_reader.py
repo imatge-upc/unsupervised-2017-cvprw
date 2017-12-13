@@ -13,6 +13,7 @@ from __future__ import division
 
 import os
 import re
+import ipdb
 import logging
 import warnings
 import numpy as np
@@ -28,7 +29,9 @@ except ImportError:
 
 
 # Default path to FFmpeg binary
-FFMPEG_BIN = '/usr/bin/ffmpeg'
+FFMPEG_BIN = '/anaconda/bin'
+
+FLAGS = tf.app.flags.FLAGS
 
 
 def get_ffmpeg_bin():
@@ -98,9 +101,9 @@ def _load_video_ffmpeg(filename):
     if isinstance(filename, bytes):
         filename = filename.decode('utf-8')
 
-    n_frames = FLAGS.num_frames
-    random_chunk = FLAGS.random_chunks
-    target_fps = FLAGS.fps
+    n_frames = -1 #FLAGS.num_frames
+    random_chunk = False #FLAGS.random_chunks
+    target_fps = -1 #FLAGS.fps
 
     # Get video params
     video_reader = FFMPEG_VideoReader(filename, target_fps=target_fps)
